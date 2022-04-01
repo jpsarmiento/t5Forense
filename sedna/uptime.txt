@@ -1,0 +1,11 @@
+ 17:15:58 up  1:23,  8 users,  load average: 0,00, 0,01, 0,05
+ 17:16:33 up  1:24,  8 users,  load average: 0,00, 0,01, 0,05
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+root     tty4                      15:31    1:44m  0.01s  0.01s -bash
+root     tty5                      15:31    1:44m  0.02s  0.02s -bash
+root     tty2                      15:31    1:44m  0.01s  0.01s -bash
+root     tty3                      15:31    1:44m  0.02s  0.02s -bash
+root     tty6                      15:31    1:44m  0.01s  0.01s -bash
+root     tty1                      15:31    1:44m  0.02s  0.02s -bash
+sedna    :0       :0               16:17   ?xdm?  50.38s  0.13s mate-session
+sedna    pts/0    :0.0             16:21    5.00s  0.07s  0.01s w

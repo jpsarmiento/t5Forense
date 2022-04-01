@@ -1,0 +1,123 @@
+    1  mount
+    2  ///
+    3  mount
+    4  pwd
+    5  cd Desktop/
+    6  cp /media/sr0/VMwareTools-10.0.0-2977863.tar.gz /home/sedna/Desktop/
+    7  clear
+    8  ls /la
+    9  ls - la
+   10  ls -la
+   11  tar -xzvf VMwareTools-10.0.0-2977863.tar.gz 
+   12  ifconfig
+   13  clear
+   14  cd Desktop/
+   15  cd vmware-tools-distrib/
+   16  ./vmware-install.pl -d
+   17  sudo ./vmware-install.pl -d
+   18  chmod 777 /
+   19  sudo
+   20  sudo ./vmware-install.pl
+   21  cd Desktop/
+   22  chmod 777 IP-STATIC.sh 
+   23  chmod 777 IP-DHCP.sh 
+   24  ./IP-DHCP.sh 
+   25  clear
+   26  ./IP-STATIC.sh 
+   27  chmod 777 IP-STATIC.sh
+   28  ./IP-STATIC.sh 
+   29  ping 192.168.239.6
+   30  hostname -I
+   31  cd
+   32  hostname -I
+   33  ./IP-STATIC.sh 
+   34  hostname -I
+   35  ./IP-STATIC.sh 
+   36  hostname -I
+   37  ./IP-STATIC.sh 
+   38  hostname -I
+   39  ping 192.168.239.6
+   40  hostname -I
+   41  ./IP-STATIC.sh 
+   42  hostname -I
+   43  ping 192.168.239.6
+   44  date 
+   45  date > fechaInicio.txt
+   46  cl
+   47  clear
+   48  date > fechaInicio.txt
+   49  hostname > hostname.txt
+   50  cd
+   51  cd /proc
+   52  cat version uptime meminfo filesystem cpuinfo > procFiles.txt
+   53  clear
+   54  cd
+   55  clear
+   56  date > fechaInicio.txt
+   57  hostname > hostname.txt
+   58  ls
+   59  cd /proc
+   60  pwd
+   61  cd
+   62  pwd
+   63  clear
+   64  date > fechaInicio.txt
+   65  hostname > hostname.txt
+   66  cd /proc
+   67  cat version uptime meminfo filesystem cpuinfo > /home/sedna/procFiles.txt
+   68  clear
+   69  cd
+   70  clear
+   71  date > fechaInicio.txt
+   72  hostname > hostname.txt
+   73  cd /proc
+   74  cat version uptime meminfo filesystems cpuinfo > /home/sedna/procFiles.txt
+   75  cd
+   76  uptime > uptime.txt
+   77  w >> uptime.txt
+   78  netstat > conexionesRed.txt
+   79  netstat -an > puertos.txt
+   80  lsof > ficherosSistema.txt
+   81  lsof -u SEDNA > ficherosSEDNA.txt
+   82  lsof -u sedna > ficherosSEDNA.txt
+   83  clear
+   84  lsof > ficherosSistema.txt
+   85  lsof -u sedna > ficherosSEDNA.txt
+   86  lsof | more > TCP-UDP.txt
+   87  lsof -i > internetConexiones.txt
+   88  clear
+   89  who
+   90  clear
+   91  who > usersLog.txt
+   92  who -uH > inactividadUsers.txt
+   93  who -q >> usersLog.txt
+   94  last > historialLogs.txt
+   95  lastlog > historialLogs.txt
+   96  clear
+   97  netstat -m
+   98  clear
+   99  netstat -rn
+  100  clear
+  101  netstat -rn > tablaEnrutamiento.txt
+  102  route > rutasSEDNA.txt
+  103  top > procesosEjecucion.txt
+  104  top
+  105  clear
+  106  netstat -rn > tablaEnrutamiento.txt
+  107  route > rutasSEDNA.txt
+  108  top -n 1 > procesosEjecucion.txt
+  109  top -n 1
+  110  clear
+  111  ls
+  112  cd home
+  113  pwd
+  114  cd /home
+  115  ls
+  116  clear
+  117  .bash_history
+  118  ./bash_history
+  119  cd
+  120  ./bash_history
+  121  history
+  122  clear
+  123  history > historialComandos.txt

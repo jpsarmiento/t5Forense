@@ -1,0 +1,86 @@
+Module                  Size  Used by
+vmw_vsock_vmci_transport    26278  2 
+vsock                  34903  3 vmw_vsock_vmci_transport
+vmhgfs                 54266  0 
+vmw_balloon            13415  0 
+crct10dif_pclmul       14289  0 
+crc32_pclmul           13113  0 
+ghash_clmulni_intel    13216  0 
+aesni_intel            55624  0 
+aes_x86_64             17131  1 aesni_intel
+lrw                    13286  1 aesni_intel
+gf128mul               14951  1 lrw
+glue_helper            13990  1 aesni_intel
+ablk_helper            13597  1 aesni_intel
+cryptd                 20359  3 ghash_clmulni_intel,aesni_intel,ablk_helper
+serio_raw              13462  0 
+dm_multipath           22873  0 
+scsi_dh                14882  1 dm_multipath
+snd_ens1371            25427  3 
+snd_ac97_codec        130285  1 snd_ens1371
+ac97_bus               12730  1 snd_ac97_codec
+gameport               15758  1 snd_ens1371
+snd_pcm               102099  2 snd_ac97_codec,snd_ens1371
+snd_page_alloc         18710  1 snd_pcm
+snd_seq_midi           13324  0 
+snd_seq_midi_event     14899  1 snd_seq_midi
+snd_rawmidi            30144  2 snd_ens1371,snd_seq_midi
+snd_seq                61560  2 snd_seq_midi_event,snd_seq_midi
+snd_seq_device         14497  3 snd_seq,snd_rawmidi,snd_seq_midi
+snd_timer              29482  2 snd_pcm,snd_seq
+snd                    69322  14 snd_ac97_codec,snd_timer,snd_pcm,snd_seq,snd_rawmidi,snd_ens1371,snd_seq_device,snd_seq_midi
+soundcore              12680  1 snd
+mac_hid                13205  0 
+vmw_vmci               62966  1 vmw_vsock_vmci_transport
+i2c_piix4              22155  0 
+shpchp                 37032  0 
+bnep                   19624  2 
+rfcomm                 69160  4 
+bluetooth             391136  10 bnep,rfcomm
+parport_pc             32701  0 
+ppdev                  17671  0 
+lp                     17759  0 
+parport                42348  3 lp,ppdev,parport_pc
+binfmt_misc            17468  1 
+nfsd                  284385  2 
+auth_rpcgss            59338  1 nfsd
+nfs_acl                12837  1 nfsd
+nfs                   236726  0 
+lockd                  93977  2 nfs,nfsd
+sunrpc                289260  6 nfs,nfsd,auth_rpcgss,lockd,nfs_acl
+fscache                63988  1 nfs
+btrfs                 835994  0 
+libcrc32c              12644  1 btrfs
+raid10                 48128  0 
+raid456                86705  0 
+async_raid6_recov      12984  1 raid456
+async_memcpy           12762  1 raid456
+async_pq               13365  1 raid456
+async_xor              13160  2 async_pq,raid456
+async_tx               13509  5 async_pq,raid456,async_xor,async_memcpy,async_raid6_recov
+xor                    21411  2 btrfs,async_xor
+raid6_pq               97812  3 async_pq,btrfs,async_raid6_recov
+raid1                  35530  0 
+raid0                  17842  0 
+multipath              13145  0 
+linear                 12894  0 
+nbd                    17603  0 
+dm_mirror              22135  0 
+dm_region_hash         20862  1 dm_mirror
+dm_log                 18411  2 dm_region_hash,dm_mirror
+vmw_pvscsi             22858  0 
+vmxnet3                49693  0 
+hid_generic            12548  0 
+usbhid                 52659  0 
+hid                   106148  2 hid_generic,usbhid
+psmouse               106692  0 
+vmwgfx                179388  2 
+ahci                   34091  0 
+libahci                32716  1 ahci
+e1000                 145227  0 
+mptspi                 22542  1 
+mptscsih               40150  1 mptspi
+mptbase               101822  2 mptspi,mptscsih
+ttm                    93424  1 vmwgfx
+drm                   303102  3 ttm,vmwgfx
+pata_acpi              13038  0 

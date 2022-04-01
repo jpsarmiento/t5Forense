@@ -1,0 +1,31 @@
+COMMAND   PID     USER   FD   TYPE DEVICE SIZE/OFF NODE NAME
+sshd      548     root    3u  IPv4  15253      0t0  TCP *:ssh (LISTEN)
+sshd      548     root    4u  IPv6  15255      0t0  TCP *:ssh (LISTEN)
+xinetd   1244     root    5u  IPv4  14123      0t0  TCP *:telnet (LISTEN)
+apache2  1250     root    4u  IPv6  14157      0t0  TCP *:http (LISTEN)
+proftpd  1251  proftpd    0u  IPv6  14180      0t0  TCP *:ftp (LISTEN)
+apache2  1253 www-data    4u  IPv6  14157      0t0  TCP *:http (LISTEN)
+apache2  1254 www-data    4u  IPv6  14157      0t0  TCP *:http (LISTEN)
+nmbd     1328     root   12u  IPv4  14386      0t0  UDP *:netbios-ns 
+nmbd     1328     root   13u  IPv4  14387      0t0  UDP *:netbios-dgm 
+nmbd     1328     root   14u  IPv4  19838      0t0  UDP 192.168.239.6:netbios-ns 
+nmbd     1328     root   15u  IPv4  19839      0t0  UDP 192.168.239.255:netbios-ns 
+nmbd     1328     root   16u  IPv4  19840      0t0  UDP 192.168.239.6:netbios-dgm 
+nmbd     1328     root   17u  IPv4  19841      0t0  UDP 192.168.239.255:netbios-dgm 
+nmbd     1328     root   19u  IPv4  20756      0t0  UDP 192.168.0.8:netbios-ns 
+nmbd     1328     root   20u  IPv4  20757      0t0  UDP 192.168.0.255:netbios-ns 
+nmbd     1328     root   21u  IPv4  20758      0t0  UDP 192.168.0.8:netbios-dgm 
+nmbd     1328     root   22u  IPv4  20759      0t0  UDP 192.168.0.255:netbios-dgm 
+smbd     1341     root   32u  IPv6  14507      0t0  TCP *:microsoft-ds (LISTEN)
+smbd     1341     root   33u  IPv6  14508      0t0  TCP *:netbios-ssn (LISTEN)
+smbd     1341     root   34u  IPv4  14509      0t0  TCP *:microsoft-ds (LISTEN)
+smbd     1341     root   35u  IPv4  14510      0t0  TCP *:netbios-ssn (LISTEN)
+dhclient 1357     root    6u  IPv4  12016      0t0  UDP *:bootpc 
+dhclient 1357     root   20u  IPv4  11965      0t0  UDP *:57368 
+dhclient 1357     root   21u  IPv6  11966      0t0  UDP *:18517 
+sshd     1936     root    3u  IPv4  23360      0t0  TCP 192.168.239.6:ssh->192.168.239.25:33209 (ESTABLISHED)
+sshd     2025  neptuno    3u  IPv4  23360      0t0  TCP 192.168.239.6:ssh->192.168.239.25:33209 (ESTABLISHED)
+sshd     2261     root    3u  IPv4  27093      0t0  TCP 192.168.239.6:ssh->192.168.239.25:33213 (ESTABLISHED)
+sshd     2311  neptuno    3u  IPv4  27093      0t0  TCP 192.168.239.6:ssh->192.168.239.25:33213 (ESTABLISHED)
+sshd     2352     root    3u  IPv4  27453      0t0  TCP 192.168.239.6:ssh->192.168.239.25:33214 (ESTABLISHED)
+sshd     2404  neptuno    3u  IPv4  27453      0t0  TCP 192.168.239.6:ssh->192.168.239.25:33214 (ESTABLISHED)

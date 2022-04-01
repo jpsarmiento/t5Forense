@@ -1,0 +1,34 @@
+Module                  Size  Used by
+ppdev                  20480  0 
+snd_ens1371            32768  0 
+vmwgfx                180224  1 
+vmw_balloon            16384  0 
+snd_ac97_codec        131072  1 snd_ens1371
+ac97_bus               16384  1 snd_ac97_codec
+gameport               16384  1 snd_ens1371
+ttm                    98304  1 vmwgfx
+snd_rawmidi            32768  1 snd_ens1371
+serio_raw              16384  0 
+snd_seq_device         16384  1 snd_rawmidi
+snd_pcm               106496  2 snd_ac97_codec,snd_ens1371
+drm_kms_helper        122880  1 vmwgfx
+drm                   344064  4 ttm,drm_kms_helper,vmwgfx
+snd_timer              32768  1 snd_pcm
+snd                    90112  6 snd_ac97_codec,snd_timer,snd_pcm,snd_rawmidi,snd_ens1371,snd_seq_device
+soundcore              16384  1 snd
+shpchp                 40960  0 
+i2c_piix4              24576  0 
+vmw_vmci               65536  0 
+8250_fintek            16384  0 
+parport_pc             32768  0 
+parport                45056  2 ppdev,parport_pc
+mac_hid                16384  0 
+autofs4                40960  2 
+psmouse               118784  0 
+e1000                 143360  0 
+mptspi                 24576  2 
+mptscsih               40960  1 mptspi
+mptbase               102400  2 mptspi,mptscsih
+scsi_transport_spi     32768  1 mptspi
+pata_acpi              16384  0 
+floppy                 77824  0 

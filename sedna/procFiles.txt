@@ -1,0 +1,105 @@
+Linux version 3.13.0-66-generic (buildd@lgw01-26) (gcc version 4.8.2 (Ubuntu 4.8.2-19ubuntu1) ) #108-Ubuntu SMP Wed Oct 7 15:20:27 UTC 2015
+4895.50 4806.90
+MemTotal:        1003996 kB
+MemFree:           71256 kB
+Buffers:          113272 kB
+Cached:           316624 kB
+SwapCached:            0 kB
+Active:           448672 kB
+Inactive:         289768 kB
+Active(anon):     309584 kB
+Inactive(anon):     5044 kB
+Active(file):     139088 kB
+Inactive(file):   284724 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                28 kB
+Writeback:             0 kB
+AnonPages:        308544 kB
+Mapped:            93184 kB
+Shmem:              6084 kB
+Slab:             114316 kB
+SReclaimable:      77508 kB
+SUnreclaim:        36808 kB
+KernelStack:        6656 kB
+PageTables:        25024 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:      501996 kB
+Committed_AS:    1980316 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      168660 kB
+VmallocChunk:   34359547228 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:     75776 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:       69504 kB
+DirectMap2M:      978944 kB
+DirectMap1G:           0 kB
+nodev	sysfs
+nodev	rootfs
+nodev	ramfs
+nodev	bdev
+nodev	proc
+nodev	cgroup
+nodev	cpuset
+nodev	tmpfs
+nodev	devtmpfs
+nodev	debugfs
+nodev	securityfs
+nodev	sockfs
+nodev	pipefs
+nodev	anon_inodefs
+nodev	devpts
+	ext3
+	ext2
+	ext4
+nodev	hugetlbfs
+	vfat
+nodev	ecryptfs
+	fuseblk
+nodev	fuse
+nodev	fusectl
+nodev	pstore
+nodev	mqueue
+	btrfs
+nodev	rpc_pipefs
+nodev	nfs
+nodev	nfs4
+nodev	binfmt_misc
+nodev	nfsd
+nodev	vmhgfs
+processor	: 0
+vendor_id	: AuthenticAMD
+cpu family	: 23
+model		: 104
+model name	: AMD Ryzen 5 5500U with Radeon Graphics
+stepping	: 1
+microcode	: 0x8608103
+cpu MHz		: 2096.061
+cache size	: 512 KB
+physical id	: 0
+siblings	: 1
+core id		: 0
+cpu cores	: 1
+apicid		: 0
+initial apicid	: 0
+fpu		: yes
+fpu_exception	: yes
+cpuid level	: 16
+wp		: yes
+flags		: fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc eagerfpu pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw arat xsaveopt vmmcall fsgsbase bmi1 avx2 smep bmi2 rdseed adx smap
+bogomips	: 4192.12
+TLB size	: 3072 4K pages
+clflush size	: 64
+cache_alignment	: 64
+address sizes	: 42 bits physical, 48 bits virtual
+power management:
+

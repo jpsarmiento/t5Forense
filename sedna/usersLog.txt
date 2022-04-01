@@ -1,0 +1,10 @@
+root     tty4         2022-04-01 15:31
+root     tty5         2022-04-01 15:31
+root     tty2         2022-04-01 15:31
+root     tty3         2022-04-01 15:31
+root     tty6         2022-04-01 15:31
+root     tty1         2022-04-01 15:31
+sedna    :0           2022-04-01 16:17 (:0)
+sedna    pts/0        2022-04-01 16:21 (:0.0)
+root root root root root root sedna sedna
+# users=8

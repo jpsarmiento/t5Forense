@@ -1,0 +1,9 @@
+NAME     LINE         TIME             IDLE          PID COMMENT
+root     tty4         2022-04-01 15:31  old         8998
+root     tty5         2022-04-01 15:31 02:01        8940
+root     tty2         2022-04-01 15:31  old         8934
+root     tty3         2022-04-01 15:31  old         8937
+root     tty6         2022-04-01 15:31 02:01        8928
+root     tty1         2022-04-01 15:31  old         9453
+sedna    :0           2022-04-01 16:17   ?         17532 (:0)
+sedna    pts/0        2022-04-01 16:21   .         18059 (:0.0)
