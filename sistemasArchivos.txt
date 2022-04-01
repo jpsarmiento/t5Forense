@@ -1,0 +1,9 @@
+Filesystem                   1K-blocks    Used Available Use% Mounted on
+udev                           1012412       0   1012412   0% /dev
+tmpfs                           204816    5624    199192   3% /run
+/dev/mapper/neptuno--vg-root  18180876 1333528  15900764   8% /
+tmpfs                          1024076       0   1024076   0% /dev/shm
+tmpfs                             5120       0      5120   0% /run/lock
+tmpfs                          1024076       0   1024076   0% /sys/fs/cgroup
+/dev/sda1                       240972   42308    186223  19% /boot
+tmpfs                           204816       0    204816   0% /run/user/1000
