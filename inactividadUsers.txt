@@ -1,5 +1,0 @@
-NAME     LINE         TIME         IDLE          PID COMMENT
-neptuno  tty1         Apr  1 08:40 00:14        1554
-neptuno  pts/0        Apr  1 11:19 01:15        1936 (192.168.239.25)
-neptuno  pts/1        Apr  1 12:02 00:32        2261 (192.168.239.25)
-neptuno  pts/2        Apr  1 12:33   .          2562 (192.168.239.25)
