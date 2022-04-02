@@ -1,6 +1,0 @@
-neptuno  tty1         Apr  1 08:40
-neptuno  pts/0        Apr  1 11:19 (192.168.239.25)
-neptuno  pts/1        Apr  1 12:02 (192.168.239.25)
-neptuno  pts/2        Apr  1 12:33 (192.168.239.25)
-neptuno neptuno neptuno neptuno
-# users=4
